@@ -27,6 +27,7 @@
 
 #gameContainer #restartButton {
     margin-top: 25px;
+    visibility: hidden;
 }
 
 button {

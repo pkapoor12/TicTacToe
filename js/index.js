@@ -58,6 +58,7 @@ let running = false;
 
 function startGame() {
     startButton.style.visibility = 'hidden';
+    restartButton.style.visibility = 'visible';
     cells.forEach(cell => cell.addEventListener("click", cellClickHandler));
     restartButton.addEventListener("click", restartGame);
     statusText.textContent = `${currentPlayer}'s turn`;
